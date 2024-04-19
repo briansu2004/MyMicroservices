@@ -8,6 +8,19 @@
 
 ## Common microservices patterns
 
+<!-- 
+Service Registry & Discovery
+API Gateway
+Circuit Breaker
+Bulkhead
+Saga Pattern
+Event Sourcing
+Choreography vs. Orchestration
+Saga Choreography
+Polyglot Persistence
+Backends for Frontends (BFF)
+-->
+
 Microservices architecture offers various patterns to address different concerns such as scalability, resilience, and maintainability. Here are some common microservices patterns:
 
 1. **Service Registry & Discovery**: A central service registry (like Netflix Eureka) where services register themselves, and clients discover services dynamically. This allows for a more flexible and scalable system as services can be added or removed without manual configuration.
@@ -33,6 +46,21 @@ Microservices architecture offers various patterns to address different concerns
 These patterns are just a starting point, and real-world microservices architectures often combine multiple patterns to address specific requirements and challenges.
 
 ## Microservices Principles
+
+<!-- 
+Single Responsibility Principle (SRP)
+Autonomous Decentralized Governance
+Decentralized Data Management
+Design for Failure
+API First
+Continuous Delivery
+Infrastructure as Code (IaC)
+Evolutionary Design
+Observability
+Resilient Communication
+Scaling Horizontally
+Domain-Driven Design (DDD) 
+-->
 
 Microservices architecture is guided by several key principles that help teams design, implement, and maintain scalable, resilient, and maintainable systems. Here are some of the fundamental principles:
 
